@@ -21,7 +21,7 @@
 <div id = "pageBody">
 <h3>Yoga Class Registration</h3>
 
-<form action="/action_page.php">
+<form action="jsp_yoga_form" method="post">
 
   <br>
   <input type="text" name="txtName" value="Your Name"><br>
