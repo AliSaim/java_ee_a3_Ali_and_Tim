@@ -33,25 +33,25 @@
   <input type="text" name="txtContactNumber" value="Contact Number"><br>
   
   <br><b>Gender</b><br>
-  <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="radioGender" value="male" checked> Male<br>
+  <input type="radio" name="radioGender" value="female"> Female<br>
   
   <br>
   <input type="text" name="txtAge" value="Age"><br>
   
   <br><b>Batch That Fits Your Timing!</b><br>
-  <input type="radio" name="radioGroupBatchOptions"  checked> Morning: 6:30 to 8:30 <br>
-  <input type="radio" name="radioGroupBatchOptions" >  Morning: 8:30 to 10:30<br>
-  <input type="radio" name="radioGroupBatchOptions" >	Evening: 4:30 to 6:30 <br>
-  <input type="radio" name="radioGroupBatchOptions" >	Evening: 6:30 to 8:30 <br>
+  <input type="radio" name="radioGroupBatchOptions" value="Morning: 6:30 to 8:30" checked>  Morning: 6:30 to 8:30 <br>
+  <input type="radio" name="radioGroupBatchOptions" value="Morning: 8:30 to 10:30">  		Morning: 8:30 to 10:30<br>
+  <input type="radio" name="radioGroupBatchOptions" value="Evening: 4:30 to 6:30">			Evening: 4:30 to 6:30 <br>
+  <input type="radio" name="radioGroupBatchOptions" value="Evening: 6:30 to 8:30">			Evening: 6:30 to 8:30 <br>
   
   <br><b>Yoga you want to register for!</b><br>
-  <input type="checkbox" name="radioRegisterAnusara" > Anusara 	<br>
-  <input type="checkbox" name="radioRegisterAshtanga" > Ashtanga 	<br>
-  <input type="checkbox" name="radioRegisterBikram" > Bikram	<br>
-  <input type="checkbox" name="radioRegisterPower" > Power		<br>  
-  <input type="checkbox" name="radioRegisterJivamukti" > Jivamukti<br>
-  <input type="checkbox" name="radioRegisterKundlini" > Kundlini	<br>
+  <input type="checkbox" name="radioRegisterAnusara" 	value="Anusara"> 	Anusara 	<br>
+  <input type="checkbox" name="radioRegisterAshtanga" 	value="Ashtanga"> 	Ashtanga 	<br>
+  <input type="checkbox" name="radioRegisterBikram" 	value="Bikram"> 	Bikram		<br>
+  <input type="checkbox" name="radioRegisterPower" 		value="Power"> 		Power		<br>  
+  <input type="checkbox" name="radioRegisterJivamukti" 	value="Jivamukti"> 	Jivamukti	<br>
+  <input type="checkbox" name="radioRegisterKundlini" 	value="Kundlini"> 	Kundlini	<br>
   <br><br>
   
   <input type="text" name="txtCity" value="City"><br>
