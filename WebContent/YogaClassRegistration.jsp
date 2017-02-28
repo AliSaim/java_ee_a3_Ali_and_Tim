@@ -58,8 +58,19 @@
   
   <br>
   <input type="submit" value="Confirm Registration!"><br>
-  
+
 </form>
+	
+	
+	<form action="jsp_yoga_form" method="get">
+		
+ 		 <input type="submit" name="btnViewAll" value="View All"><br>
+	
+	</form>
+	
+	
+	
+
 
 </div>
 
