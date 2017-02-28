@@ -1,3 +1,16 @@
+/*INTERNAL DOCUMENTATION
+ * Student 1:  Name: Ali Saim (300759480)
+ * Student 2:  Name: Tim Hitchcock (300801451)
+ * Course: COMP303(Sec# 001) - Java EE Programming - Assignment 3 (Pair Programming)
+ * Date: February 27 2017
+ * Class Name: YogaController.java
+ * Class Description:   This is the servlet java class that we use
+ * 						 to display all the records from the database into a table 
+ * 						 
+ * 						We also use to this class to add new yoga registration
+ * 
+ * */
+
 package mvc;
 
 
@@ -85,7 +98,7 @@ public class YogaController extends HttpServlet {
 		 		+ "<td>"+yoga+"</td>"
 		 		+ "<td>"+city+"</td>"	
 		 		
-		 		+ "<td>" +   "<a href="">Delete</a>" +   "</td>"
+		 		+ "<td> <a href=Edit.jsp> Edit </a>  </td>"
 		 		
 
 		 		+ "<td> <a href> Delete! </a> </td>"
@@ -194,7 +207,6 @@ public class YogaController extends HttpServlet {
 		 System.out.println("Hello" + gender.toString());
 		 
 		 request.setAttribute("bean",bean);
-		 
 		 
 		 
 			try

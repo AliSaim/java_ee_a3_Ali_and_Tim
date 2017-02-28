@@ -1,3 +1,13 @@
+<!--/*INTERNAL DOCUMENTATION
+ * Student 1:  Name: Ali Saim (300759480)
+ * Student 2:  Name: Tim Hitchcock (300801451)
+ * Course: COMP303(Sec# 001) - Java EE Programming - Assignment 3 (Pair Programming)
+ * Date: February 27 2017
+ * Class Name: JSP_View.jsp
+ * Class Description:   This is the jps file use to display an UI to user to interact with the application
+ * 
+ * */  -->
+
 <%@ page language="java" import="mvc.YogaBean" contentType="text/html; charset=ISO-
 8859-1"
  pageEncoding="ISO-8859-1"%>
